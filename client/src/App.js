@@ -1,6 +1,7 @@
 
-import './App.css';
 import "@material-tailwind/react/tailwind.css";
+import "./flickity.css"
+import './index.css';
 
 import React from "react";
 

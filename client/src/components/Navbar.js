@@ -1,23 +1,14 @@
 import React, { useState } from "react";
-
-import FormatListBulletedIcon from '@material-ui/icons/FormatListBulleted';
-import Button from "./Button";
-import Icon from '@material-ui/core/Icon';
-import Drawer from "@material-ui/core/Drawer";
-
-import { Link } from "react-scroll";
+import NavButton from "./NavButton"
 
 export default function CustomNavbar() {
     const [openNavbar, setOpenNavbar] = useState(false);
 
     return (
-        <div className="relative">
-            <div className="z-0 absolute top-3 left-3 w-full cursor-pointer text-theme-light">
-                <svg onClick={() => setOpenNavbar(true)} xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
-                </svg>
-            </div>
-            <div className="bg-theme-light text-theme-pink relative space-y-5 z-10 w-72 min-h-screen">
+            <div className="bg-theme-light text-theme-pink 
+         inset-y-0 left-0 space-y-5 z-10 w-72 
+             absolute -translate-x-full transform 
+             transition duration-200 ease-in-out md:relative md:translate-x-0">
                 <a href="#home">
                     <div className="flex items-center space-x-3 pt-10 pl-1 pb-10">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -27,23 +18,10 @@ export default function CustomNavbar() {
                     </div>
                 </a>
                 <nav className="text-theme-accent-light px-3">
-                    <a href="#aboutme">
-                        <div className="rounded block py-4 px-4 hover:bg-theme-purple">
-                            About Me
-                        </div>
-                    </a>
-                    <a href="#projects">
-                        <div className="rounded block py-4 px-4 hover:bg-theme-purple">
-                            Projects
-                        </div>
-                    </a>
-                    <a href="#skills">
-                        <div className="rounded block py-4 px-4 hover:bg-theme-purple">
-                            Skills
-                        </div>
-                    </a>
+                    <NavButton href="#aboutme" text="About Me" />
+                    <NavButton href="#projects" text="Projects" />
+                    <NavButton href="#skills" text="Skills" />
                 </nav>
             </div>
-        </div>
     );
 }
