@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
+      },
       colors: {
         theme: {
           main: "#282a36",
@@ -17,11 +20,26 @@ module.exports = {
           yellow: "#f1fa8c",
           orange: "#ffb86c"
         }
-      }
+      },
+      keyframes: {
+        changeColor: {
+          '0%': {
+            background: "linear-gradient:(#008000, #00FF00)", "-webkit-background-clip": "text"
+          },
+          '100%': {
+              background: "linear-gradient(#3CE7D7, #000FFF)", "-webkit-background-clip": "text"
+          }
+        }
+      },
+      animation: {
+        changeColor: 'changeColor 1s ease-in-out infinite',
+       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['hover', 'focus'],
+    },
   },
   plugins: [],
 }

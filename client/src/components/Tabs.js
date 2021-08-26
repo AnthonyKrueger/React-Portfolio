@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import Project from './Project'
 
@@ -42,7 +41,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box p={3}>
-          <Typography>{children}</Typography>
+          {children}
         </Box>
       )}
     </div>
@@ -73,9 +72,9 @@ export default function ProjectTabs() {
     <div>
       <AppBar className="bg-theme-main" position="static">
         <Tabs className="bg-theme-main text-theme-accent-light" TabIndicatorProps={{ style: { background: '#ff79c6' } }} value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="TCG Tracker" {...a11yProps(0)} />
-          <Tab label="Trash Party" {...a11yProps(1)} />
-          <Tab label="Tech Blog" {...a11yProps(2)} />
+          <Tab className="focus:outline-none" label="TCG Tracker" {...a11yProps(0)} />
+          <Tab className="focus:outline-none" label="Trash Party" {...a11yProps(1)} />
+          <Tab className="focus:outline-none" label="Tech Blog" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel className="bg-theme-light rounded" value={value} index={0}>
