@@ -91,7 +91,7 @@ export default function ProjectTabs() {
       <Project
           title={"Trash Party"}
           images={trashImages}
-          role={"Backend Lead/Creator"}
+          role={"Backend Lead/Frontend Support"}
           techUsed={"Javascript, NodeJS, MySQL, Sequelize, Express, Handlebars, Express-Sessions, HTML, CSS, jQuery, Materialize, GiphyAPI"}
           description={"A website where twice a day the user can open a pack of random gifs of different types and rarities, jokingly name 'trash'. You can trade your 'trash' with other users until you get items you like. Throw cards you don't like away into the landfill for other users to collect, or trade specific cards user-to-user to get specific trash. Basically a virtual trading card game built using relational databases and ExpressJS."}
         links={trashLinks}
