@@ -15,7 +15,7 @@ export default function Carousel({images}) {
     
     return (
         <div className="center md:mx-16">
-            <Flickity
+        {imagesList ?             <Flickity
                 className={'carousel'} // default ''
                 elementType={'div'} // default 'div'
                 options={flickityOptions} // takes flickity options {}
@@ -24,7 +24,9 @@ export default function Carousel({images}) {
                 static // default false
             >
                 {imagesList}
-            </Flickity>
+            </Flickity> : <div class=" flex justify-center items-center">
+  <div class="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-theme-purple"></div>
+</div>}
         </div>
     )
 }

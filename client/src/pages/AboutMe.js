@@ -7,7 +7,7 @@ export default function AboutMe() {
         <div className="my-5 pb-5 container mx-auto rounded-lg shadow-lg bg-theme-light">
                 <Header text="About Me" />
                 <div className="px-10 md:px-32">
-                    <div className="container rounded-lg w-64 md:w-72 pt-10 flex mx-auto">
+                    <div className="container rounded-lg w-3/4 md:w-3/4 pt-10 flex mx-auto">
                         <img className="rounded border-4 border-theme-purple" src={profilePhoto} alt=""></img>
                     </div>
                     <div className="flex mt-10 mx-auto py-5 px-5 container bg-theme-main rounded">

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.da9b0100.chunk.css",
-    "main.js": "/static/js/main.5e15d1ee.chunk.js",
-    "main.js.map": "/static/js/main.5e15d1ee.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0e0c993b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0e0c993b.js.map",
+    "main.css": "/static/css/main.6b5dffe5.chunk.css",
+    "main.js": "/static/js/main.c9f09612.chunk.js",
+    "main.js.map": "/static/js/main.c9f09612.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.21a459bc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.21a459bc.js.map",
     "static/css/2.9f596ffa.chunk.css": "/static/css/2.9f596ffa.chunk.css",
-    "static/js/2.f220607b.chunk.js": "/static/js/2.f220607b.chunk.js",
-    "static/js/2.f220607b.chunk.js.map": "/static/js/2.f220607b.chunk.js.map",
-    "static/js/3.37936f70.chunk.js": "/static/js/3.37936f70.chunk.js",
-    "static/js/3.37936f70.chunk.js.map": "/static/js/3.37936f70.chunk.js.map",
+    "static/js/2.1d9f2cdd.chunk.js": "/static/js/2.1d9f2cdd.chunk.js",
+    "static/js/2.1d9f2cdd.chunk.js.map": "/static/js/2.1d9f2cdd.chunk.js.map",
+    "static/js/3.6be23d16.chunk.js": "/static/js/3.6be23d16.chunk.js",
+    "static/js/3.6be23d16.chunk.js.map": "/static/js/3.6be23d16.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.9f596ffa.chunk.css.map": "/static/css/2.9f596ffa.chunk.css.map",
-    "static/css/main.da9b0100.chunk.css.map": "/static/css/main.da9b0100.chunk.css.map",
-    "static/js/2.f220607b.chunk.js.LICENSE.txt": "/static/js/2.f220607b.chunk.js.LICENSE.txt",
-    "static/media/profilePhoto.fb7f6115.JPG": "/static/media/profilePhoto.fb7f6115.JPG",
+    "static/css/main.6b5dffe5.chunk.css.map": "/static/css/main.6b5dffe5.chunk.css.map",
+    "static/js/2.1d9f2cdd.chunk.js.LICENSE.txt": "/static/js/2.1d9f2cdd.chunk.js.LICENSE.txt",
+    "static/media/profilePhoto.29d3dd26.JPG": "/static/media/profilePhoto.29d3dd26.JPG",
     "static/media/tcgTracker1.f5e758fb.png": "/static/media/tcgTracker1.f5e758fb.png",
     "static/media/tcgTracker2.b2fb65c2.png": "/static/media/tcgTracker2.b2fb65c2.png",
     "static/media/tcgTracker3.6a195c67.png": "/static/media/tcgTracker3.6a195c67.png",
@@ -27,10 +27,10 @@
     "static/media/trashparty4.59b9a342.png": "/static/media/trashparty4.59b9a342.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0e0c993b.js",
+    "static/js/runtime-main.21a459bc.js",
     "static/css/2.9f596ffa.chunk.css",
-    "static/js/2.f220607b.chunk.js",
-    "static/css/main.da9b0100.chunk.css",
-    "static/js/main.5e15d1ee.chunk.js"
+    "static/js/2.1d9f2cdd.chunk.js",
+    "static/css/main.6b5dffe5.chunk.css",
+    "static/js/main.c9f09612.chunk.js"
   ]
 }
