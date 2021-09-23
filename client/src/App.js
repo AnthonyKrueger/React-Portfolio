@@ -21,7 +21,7 @@ function App() {
     <div id="main" className="h-screen flex bg-theme-main overflow-hidden">
       <MobileNav openState={openNavbar} toggleFunction={setOpenNavbar}/>
       <CustomNavbar openState={openNavbar}/>
-      <div onClick={() => setOpenNavbar(false)} id="content" className="flex flex-col py-5 mx-7 space-y-20 w-full overflow-y-auto mt-5 md:mt-0">
+      <div onClick={() => setOpenNavbar(false)} id="content" className="flex flex-col py-5 md:mx-7 space-y-20 w-full overflow-y-auto mt-5 md:mt-0">
           <Home />
           <AboutMe />
           <Projects />

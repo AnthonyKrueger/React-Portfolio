@@ -19,6 +19,17 @@ import tcgTracker1 from "../images/tcgTracker1.png"
 import tcgTracker2 from "../images/tcgTracker2.png"
 import tcgTracker3 from "../images/tcgTracker3.png"
 
+import quizzard1 from "../images/quizzard1.png"
+import quizzard2 from "../images/quizzard2.png"
+import quizzard3 from "../images/quizzard3.png"
+import quizzard4 from "../images/quizzard4.png"
+import quizzard5 from "../images/quizzard5.png"
+import quizzard6 from "../images/quizzard6.png"
+import quizzard7 from "../images/quizzard7.png"
+
+const quizzardImages = [quizzard1, quizzard2, quizzard3, quizzard4, quizzard5, quizzard6, quizzard7]
+const quizzardLinks = { github: "https://github.com/Quizzard-Dev/Quizzard", deployed: "https://quizzardweb.herokuapp.com/"}
+
 const techImages = [techblog1, techblog2, techblog3]
 const techLinks = { github: "https://github.com/AnthonyKrueger/MVC_Demo-Tech_Blog", deployed: "https://ak-tech-blog.herokuapp.com/" }
 
@@ -72,12 +83,23 @@ export default function ProjectTabs() {
     <div>
       <AppBar className="bg-theme-main" position="static">
         <Tabs className="bg-theme-main text-theme-accent-light" TabIndicatorProps={{ style: { background: '#ff79c6' } }} value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab className="focus:outline-none" label="TCG Tracker" {...a11yProps(0)} />
-          <Tab className="focus:outline-none" label="Trash Party" {...a11yProps(1)} />
-          <Tab className="focus:outline-none" label="Tech Blog" {...a11yProps(2)} />
+          <Tab className="focus:outline-none" label="Quizzard" {...a11yProps(0)} />
+          <Tab className="focus:outline-none" label="TCG Tracker" {...a11yProps(1)} />
+          <Tab className="focus:outline-none" label="Trash Party" {...a11yProps(2)} />
+          <Tab className="focus:outline-none" label="Tech Blog" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
       <TabPanel className="bg-theme-light rounded" value={value} index={0}>
+        <Project
+          title={"Quizzard"}
+          images={quizzardImages}
+          role={"Backend Lead/Frontend Support"}
+          techUsed={"React, GraphQL, Apollo-Client, Express, MongoDB, NodeJS, TailwindCSS, JsonWebToken"}
+          description={"An application that allows users to create and take quizzes of their own design. Using the quiz creator, the user can create a multiple choice quiz that can be assigned different tags for easy searching and sorting. Once created, quizzes are added to a MongoDB database, allowing other users to search for and take it. Quizzes are sorted by their popularity, and recent scores are displayed on each individual quiz page. Saved quizzes can be duplicated and editted by their creator. Users can search for quizzes by title, author, or by tags."}
+          links={quizzardLinks}
+        />
+      </TabPanel>
+      <TabPanel className="bg-theme-light rounded" value={value} index={1}>
         <Project
           title={"TCG Price Tracker"}
           images={tcgImages}
@@ -87,7 +109,7 @@ export default function ProjectTabs() {
           links={tcgLinks}
         />
       </TabPanel>
-      <TabPanel className="bg-theme-light rounded" value={value} index={1}>
+      <TabPanel className="bg-theme-light rounded" value={value} index={2}>
       <Project
           title={"Trash Party"}
           images={trashImages}
@@ -97,7 +119,7 @@ export default function ProjectTabs() {
         links={trashLinks}
         />
       </TabPanel>
-      <TabPanel value={value} index={2}>
+      <TabPanel value={value} index={3}>
       <Project
           title={"Tech Blog"}
           images={techImages}
