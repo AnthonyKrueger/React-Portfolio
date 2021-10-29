@@ -10,6 +10,7 @@ import Home from "./pages/Home"
 import AboutMe from "./pages/AboutMe"
 import ContactMe from "./pages/ContactMe"
 import Links from "./pages/Links"
+import Skills from "./pages/Skills"
 
 import CustomNavbar from "./components/Navbar"
 import MobileNav from "./components/MobileNav"
@@ -25,6 +26,7 @@ function App() {
           <Home />
           <AboutMe />
           <Projects />
+          <Skills />
           <Links />
           <ContactMe />
       </div>

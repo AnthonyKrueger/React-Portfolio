@@ -12,7 +12,7 @@ export default function TypicalWelcome() {
             <div className={`${animated ? '' : 'translate-y-10 opacity-0'} transform transition duration-1000 ease-in-out`}>
                 <Typical
                     className="font-mono"
-                    steps={['"Full Stack Web Developer"', 2000, '"UI/UX Designer"', 2000, '"Database/API Manager"', 2000, '"All Around Cool Dude"', 2000]}
+                    steps={['"Full Stack Web Developer"', 2000, '"Front End Designer"', 2000, '"Database/API Developer"', 2000, '"All Around Cool Dude"', 2000]}
                     loop={Infinity}
                     wrapper="span"
                 />
