@@ -1,8 +1,8 @@
 export default function SkillIcon({icon, text, link}) {
     return (
-    <div className="text-5xl flex flex-col items-center text-theme-accent-light hover:text-theme-purple py-2 px-5">
-        <a href={link}>{icon}</a>
+    <a href={link} target="_blank" rel="noreferrer" className="text-5xl flex flex-col items-center text-theme-accent-light transition duration-200 hover:text-theme-purple py-2 px-5">
+        {icon}
         <p className="text-sm pt-1 text-theme-orange">{text}</p>
-    </div>
+    </a>
     )
 }

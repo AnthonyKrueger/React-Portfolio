@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3ea5e0c.chunk.css",
-    "main.js": "/static/js/main.bea5abdb.chunk.js",
-    "main.js.map": "/static/js/main.bea5abdb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.21a459bc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.21a459bc.js.map",
+    "main.css": "/static/css/main.7860c6a7.chunk.css",
+    "main.js": "/static/js/main.7bcac02d.chunk.js",
+    "main.js.map": "/static/js/main.7bcac02d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d147098d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d147098d.js.map",
     "static/css/2.9f596ffa.chunk.css": "/static/css/2.9f596ffa.chunk.css",
-    "static/js/2.4346fd69.chunk.js": "/static/js/2.4346fd69.chunk.js",
-    "static/js/2.4346fd69.chunk.js.map": "/static/js/2.4346fd69.chunk.js.map",
-    "static/js/3.6be23d16.chunk.js": "/static/js/3.6be23d16.chunk.js",
-    "static/js/3.6be23d16.chunk.js.map": "/static/js/3.6be23d16.chunk.js.map",
+    "static/js/2.44436e30.chunk.js": "/static/js/2.44436e30.chunk.js",
+    "static/js/2.44436e30.chunk.js.map": "/static/js/2.44436e30.chunk.js.map",
+    "static/js/3.5634d352.chunk.js": "/static/js/3.5634d352.chunk.js",
+    "static/js/3.5634d352.chunk.js.map": "/static/js/3.5634d352.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.9f596ffa.chunk.css.map": "/static/css/2.9f596ffa.chunk.css.map",
-    "static/css/main.f3ea5e0c.chunk.css.map": "/static/css/main.f3ea5e0c.chunk.css.map",
-    "static/js/2.4346fd69.chunk.js.LICENSE.txt": "/static/js/2.4346fd69.chunk.js.LICENSE.txt",
+    "static/css/main.7860c6a7.chunk.css.map": "/static/css/main.7860c6a7.chunk.css.map",
+    "static/js/2.44436e30.chunk.js.LICENSE.txt": "/static/js/2.44436e30.chunk.js.LICENSE.txt",
     "static/media/profilePhoto.29d3dd26.JPG": "/static/media/profilePhoto.29d3dd26.JPG",
     "static/media/quizzard1.5b5b6d29.png": "/static/media/quizzard1.5b5b6d29.png",
     "static/media/quizzard2.ccec2b34.png": "/static/media/quizzard2.ccec2b34.png",
@@ -34,10 +34,10 @@
     "static/media/trashparty4.59b9a342.png": "/static/media/trashparty4.59b9a342.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.21a459bc.js",
+    "static/js/runtime-main.d147098d.js",
     "static/css/2.9f596ffa.chunk.css",
-    "static/js/2.4346fd69.chunk.js",
-    "static/css/main.f3ea5e0c.chunk.css",
-    "static/js/main.bea5abdb.chunk.js"
+    "static/js/2.44436e30.chunk.js",
+    "static/css/main.7860c6a7.chunk.css",
+    "static/js/main.7bcac02d.chunk.js"
   ]
 }

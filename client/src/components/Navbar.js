@@ -24,6 +24,7 @@ export default function CustomNavbar({ openState }) {
             <nav className="text-theme-accent-light px-3">
                 <NavButton href="#aboutme" text="About Me" />
                 <NavButton href="#projects" text="Projects" />
+                <NavButton href="#skills" text="Skills" />
                 <NavButton href="#links" text="Links" />
                 <NavButton href="#contactme" text="Contact Me" />
             </nav>
