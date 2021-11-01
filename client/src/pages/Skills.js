@@ -14,7 +14,7 @@ export default function Skills() {
                 <Header text="Skills" />
                 <div className="p-5">
                     <h2 className="text-2xl underline pt-5 pb-7 text-theme-pink font-bold">Languages</h2>
-                    <div className="bg-theme-main p-5 justify-evenly rounded-sm flex flex-wrap">
+                    <div className="bg-theme-main p-5 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-y-8 rounded-sm">
                         <SkillIcon text="Javascript" link="https://www.javascript.com/" icon={<DiJsBadge />} />
                         <SkillIcon text="HTML5" link="https://html.com/" icon={<DiHtml5 />} />
                         <SkillIcon text="CSS3" link="https://developer.mozilla.org/en-US/docs/Web/CSS" icon={<DiCss3 />} />
@@ -22,7 +22,7 @@ export default function Skills() {
                         <SkillIcon text="MongoDB" link="https://www.mongodb.com/" icon={<DiMongodb />} />
                     </div>
                     <h2 className="text-2xl underline pt-5 pb-7 text-theme-pink font-bold">Applications</h2>
-                    <div className="bg-theme-main p-5 justify-evenly rounded-sm flex flex-wrap">
+                    <div className="bg-theme-main p-5 grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-y-8 rounded-sm">
                         <SkillIcon text="Github" link="https://github.com/" icon={<DiGithubBadge />} />
                         <SkillIcon text="Heroku" link="https://www.heroku.com/" icon={<GrHeroku />} />
                         <SkillIcon text="MongoAtlas" link="https://www.mongodb.com/atlas/database" icon={<SiMongodb />} />
